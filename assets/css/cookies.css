@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@font-face {
+    font-family: "Futura";
+    src: url("../letra/Futura/f1.TTF");
+}
+.futura{
+    font-family: "Futura";
+    font-weight: 36;
+}
+@font-face {
+    font-family: "FuturaBook";
+    src: url("../letra/Futura/fBook.TTF");
+}
+.futuraBook{
+    font-family: "FuturaBook";
+    font-weight: 36;
+}
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+header{
+    z-index: 9997;
+}
+section{
+    background: white;
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+h2{
+    margin: 1rem;
+}
+/*Link color of navbar*/
+.navBarA{
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    border-bottom: 2px solid black;
+    transition: border 0.5s, color 0.5s;
+}
+.navBarA:hover{
+    color: #0c86c7;
+    border-bottom: 2px solid #0c86c7;
+}
+/*Button Icon*/
+#icon{
+    color: white;
+}
+
+#reparacion{
+    text-align: center;
+    margin: auto;
+}
+#reparar{
+    font-size: 2rem;
+}
+/*Footer*/
+footer{
+    margin-top: -0.5rem;
+}
+#modalContact{
+    margin: auto;
+}
+#modalP{
+    text-align: center;
+}
+/*Class Baloo (Font family)*/
+.baloo{
+    font-family: 'Baloo 2', cursive;
+}
+.text{
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+.textCenter{
+    text-align: center;
+}
+.textBold{
+    font-weight: bolder;
+}
+.textReparar{
+    width: 20rem;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 3rem;
+    color: white;
+}
+/*Background black*/
+.bgBlack{
+    background-color: black;
+}
+/*Color dropdown-divider*/
+.dropdown-divider{
+    background-color: #3c515d;
+}
+/*Class uppercase*/
+.uppercase{
+    text-transform: uppercase;
+}
+.center{
+    text-align: center;
+}
+.paddingTB{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.paddingBottom{
+    padding-bottom: 10rem;
+}
+.botonesInfo{
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 3rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.botonesInfo:hover{
+    -webkit-box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
+    -moz-box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
+    box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
+}
+.grey{
+    color: #7e7d7d;
+}
+.darkGrey{
+    color: #343333;
+}
+.darkGrey:hover {
+    color: #aeacac;
+}
+.textWhite{
+    color: white;
+    text-decoration: none;
+}
+.textWhite:hover{
+    color: white;
+}
+.linea{
+    margin: auto;
+    width: 30%;
+    border-top: 1px solid #353535;
+    margin-bottom: 1rem;
+}
+.width102{
+    width: 100.9%;
+}
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+.imgLogos{
+    width: 20rem;
+}
+/*Media Pantalla pequeña*/
+@media only screen
+and (max-width: 1050px) {
+
+}
+
+/*Media Pantalla movil*/
+@media only screen
+and (min-width: 1400px) {
+
+}
