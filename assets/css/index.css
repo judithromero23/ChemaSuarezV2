@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: "FuturaBook";
+    src: url("../letra/Futura/fBook.TTF");
+}
+.futuraBook{
+    font-family: "FuturaBook";
+    font-weight: 36;
+}
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+header{
+    z-index: 9997;
+}
+
+body{
+    padding: 0;
+}
+
+/*Link color of navbar*/
+.navBarA{
+    color: white;
+    border-bottom: 2px solid black;
+    transition: border 0.5s, color 0.5s;
+}
+.navBarA:hover{
+    color: #0c86c7;
+}
+/*Button Icon*/
+#icon{
+    color: white;
+}
+
+/*First Section; Digi*/
+#digi{
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    width: 8rem;
+    z-index: 9999;
+}
+#digiPequeño{
+    display: none;
+}
+
+/*Footer*/
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-top: -0.5rem;
+    width: 100%;
+}
+#modalContact{
+    margin: auto;
+}
+#modalP{
+    text-align: center;
+}
+/*Class Baloo (Font family)*/
+.baloo{
+    font-family: 'Baloo 2', cursive;
+}
+.text{
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+/*Background black*/
+.bgBlack{
+    background-color: black;
+}
+/*Color dropdown-divider*/
+.dropdown-divider{
+    background-color: #3c515d;
+}
+/*Class uppercase*/
+.uppercase{
+    text-transform: uppercase;
+}
+.center{
+    text-align: center;
+}
+.paddingTB{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.grey{
+    color: #7e7d7d;
+}
+.textWhite{
+    color: white;
+    text-decoration: none;
+}
+.textWhite:hover{
+    color: white;
+}
+.nav-item{
+    margin-right: 5rem;
+}
+.linea{
+    margin: auto;
+    width: 30%;
+    border-top: 1px solid #353535;
+    margin-bottom: 1rem;
+}
+
+.darkGrey{
+    color: #343333;
+}
+.darkGrey:hover {
+    color: #aeacac;
+}
+.width{
+    width: 100.9%;
+}
+.iconButton{
+    margin-right: 2rem;
+    color: #0c86c7;
+}
+#banners{
+    position: relative;
+    left: 25%;
+}
+.divButtons{
+    text-align: center;
+    padding-top: 5%;
+}
+.mainButton{
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem 0 1.5rem 0;
+    width: 12rem;
+    border-radius: 0.2rem;
+    background: white;
+}
+#iconesNav{
+    display: none;
+}
+/*Media Pantalla movil*/
+@media only screen
+and (max-width: 1050px) {
+
+}
+
+/*Media Pantalla grande*/
+@media only screen
+and (min-width: 1400px) {
+    .divButtons{
+        text-align: center;
+        padding-top: 10%;
+    }
+    .mainButton{
+        padding: 2rem 0 2rem 0;
+        width: 17rem;
+
+    }
+    #iconesNav{
+        display: none;
+    }
+}
