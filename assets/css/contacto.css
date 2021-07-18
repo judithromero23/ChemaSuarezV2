@@ -122,4 +122,6 @@ footer{
 #iconesNav {
     display: none;
 }
-
+.nav-item{
+    margin-right: 2rem;
+}
