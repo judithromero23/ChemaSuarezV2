@@ -38,6 +38,9 @@ section{
     color: #0c86c7;
     border-bottom: 2px solid #0c86c7;
 }
+.nav-item{
+    margin-right: 2rem;
+}
 /*Button Icon*/
 #icon{
     color: white;
