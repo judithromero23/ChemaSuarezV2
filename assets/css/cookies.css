@@ -57,13 +57,6 @@ h2{
     color: white;
 }
 
-#reparacion{
-    text-align: center;
-    margin: auto;
-}
-#reparar{
-    font-size: 2rem;
-}
 /*Footer*/
 footer{
     margin-top: -0.5rem;
@@ -73,10 +66,6 @@ footer{
 }
 #modalP{
     text-align: center;
-}
-/*Class Baloo (Font family)*/
-.baloo{
-    font-family: 'Baloo 2', cursive;
 }
 .text{
     font-weight: bolder;
@@ -89,13 +78,6 @@ footer{
 }
 .textBold{
     font-weight: bolder;
-}
-.textReparar{
-    width: 20rem;
-    font-size: 1.2rem;
-    margin: auto;
-    margin-top: 3rem;
-    color: white;
 }
 /*Background black*/
 .bgBlack{
@@ -119,18 +101,6 @@ footer{
 .paddingBottom{
     padding-bottom: 10rem;
 }
-.botonesInfo{
-    padding: 1rem 2rem 1rem 2rem;
-    margin-top: 3rem;
-    letter-spacing: 5px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-}
-.botonesInfo:hover{
-    -webkit-box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
-    -moz-box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
-    box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
-}
 .grey{
     color: #7e7d7d;
 }
@@ -153,14 +123,17 @@ footer{
     border-top: 1px solid #353535;
     margin-bottom: 1rem;
 }
-.width102{
+.width{
     width: 100.9%;
-}
-.ubuntu{
-    font-family: 'Ubuntu', sans-serif;
 }
 .imgLogos{
     width: 20rem;
+}
+.nav-item{
+    margin-right: 0.5rem;
+}
+#iconesNav{
+    display: none;
 }
 /*Media Pantalla pequeña*/
 @media only screen
