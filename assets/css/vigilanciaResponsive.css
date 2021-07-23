@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "FuturaBook";
+    src: url("../letra/Futura/fBook.TTF");
+}
+.futuraBook{
+    font-family: "FuturaBook";
+    font-weight: 36;
+}
+html{
+    width: 95vw;
+    height: 95rem;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+header{
+    width: 105%;
+}
+body{
+    width: 100vw;
+    height: 100%;
+}
+#btnH{
+    display: none;
+}
+#logo{
+    width: 24rem;
+}
+.bgBlack{
+    background-color: black;
+}
+.white{
+    color: #ffffff;
+}
+section{
+    text-align: center;
+}
+.carousel-item{
+    width: 124rem;
+}
+.divButtons{
+    position: absolute;
+    top: 25rem;
+}
+.mainButton{
+    width: 40rem;
+    border-radius: 0.2rem;
+    background: white;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 3rem 0 3rem 0;
+    font-size: 3rem;
+}
+
+footer{
+    position: absolute;
+    bottom: -7rem;
+    width: 105%;
+    height: 15rem;
+    text-align: center;
+    padding-top: 6rem;
+    font-size: 2rem;
+}
+
+.darkGrey{
+    color: #343333;
+}
+#iconesNav a{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 20px;
+}
+#iconesNav a:hover{
+    color: #0c86c7;
+}
+.imgLogos{
+    width: 18rem;
+}
+#reparacion{
+    text-align: center;
+    margin: auto;
+}
+#reparar{
+    font-size: 5rem;
+    margin-top: 4rem;
+}
+.textReparar{
+    font-size: 2rem;
+}
+.block{
+    display: inline-block;
+}
+.botonesInfo{
+    padding: 1.5rem 0 1.5rem 0;
+    margin-top: 1rem;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 25rem;
+    border-radius: 0.2rem;
+    background: white;
+    font-size: 2rem;
+}
+.iconos{
+    width: 4rem;
+    margin-left: 1rem;
+}
+#info {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+#info h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+#info p{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 25px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.flex-container > div {
+    margin: 10px;
+    text-align: center;
+}
+#camaraV{
+    position: absolute;
+    left: 0;
+    top: 7rem;
+}
+#videovigilancia, #seguridad{
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+#videovigilancia h1, #seguridad h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+#seguridad{
+    margin-bottom: 5rem;
+}
