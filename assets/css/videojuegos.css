@@ -1,12 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-@font-face {
-    font-family: "Futura";
-    src: url("../letra/Futura/f1.TTF");
-}
-.futura{
-    font-family: "Futura";
-    font-weight: 36;
-}
+
 @font-face {
     font-family: "FuturaBook";
     src: url("../letra/Futura/fBook.TTF");
@@ -22,9 +14,6 @@ html{
 header{
     z-index: 9997;
 }
-section{
-    background-image: linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
-}
 /*Link color of navbar*/
 .navBarA{
     color: white;
@@ -39,7 +28,7 @@ section{
     border-bottom: 2px solid #0c86c7;
 }
 .nav-item{
-    margin-right: 2rem;
+    margin-right: 0.5rem;
 }
 /*Button Icon*/
 #icon{
@@ -133,31 +122,29 @@ footer{
     border-top: 1px solid #353535;
     margin-bottom: 1rem;
 }
-.width102{
+.width{
     width: 100.9%;
 }
 .ubuntu{
     font-family: 'Ubuntu', sans-serif;
 }
 .botonesInfo{
-    padding: 1rem 2rem 1rem 2rem;
-    margin-top: 3rem;
+    padding: 1.5rem 0 1.5rem 0;
+    margin-top: 1rem;
     text-align: center;
     letter-spacing: 5px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
+    width: 25rem;
+    border-radius: 0.2rem;
+    background: white;
 }
-.botonesInfo:hover{
-    -webkit-box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
-    -moz-box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
-    box-shadow: 6px 4px 24px -11px rgba(12,133,199,1);
-}
+
 .marginTop{
     margin-top: 2rem;
 }
 #video{
     display: none;
 }
+
 /*Media Pantalla pequeña*/
 @media only screen
 and (max-width: 1050px) {
